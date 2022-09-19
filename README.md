@@ -1,16 +1,20 @@
 # flutter_xcode_cloud
 
-A new Flutter project.
+A sample Flutter project for Xcode Cloud.
 
-## Getting Started
+# Project Structure
 
-This project is a starting point for a Flutter application.
+* ios/ci_scripts/
+  * A folder for pre/post build script files.
+* ios/ci_scripts/ci_post_clone.sh
+  * pre-build scripts.
+  * Set up cocoapods and flutter sdk
 
-A few resources to get you started if this is your first Flutter project:
+Other Files are the same as default flutter project code.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# How to use
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Close this project.
+* Change bundle identifier and team ID in project buitd settings.
+* [Create a workflow.](https://developer.apple.com/documentation/xcode/configuring-your-first-xcode-cloud-workflow/)
+
