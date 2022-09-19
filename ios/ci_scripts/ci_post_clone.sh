@@ -15,4 +15,4 @@ fi
 cd ..
 cd ..
 
-flutter build ios
+flutter build ios-framework
